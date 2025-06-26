@@ -7,6 +7,7 @@ on:
       - staging
       - main
   push:
+    
     branches:
       - staging
       - main
@@ -64,5 +65,6 @@ jobs:
           snow git execute @advanced_data_engineering_snowflake/branches/$(GITHUB_REF_NAME)/module-1/hamburg_weather/pipeline/data/ \
           -D "env='${{ env.DEPLOY_ENV }}'" \
           --database=COURSE_REPO \
+          
           
           --schema=PUBLIC

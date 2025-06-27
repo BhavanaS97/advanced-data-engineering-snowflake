@@ -1,3 +1,19 @@
+## 💼 Project: Declarative Change Management with Snowflake CLI & GitHub Actions
+
+**Description:**
+Implemented a declarative deployment workflow to manage Snowflake object changes using `CREATE OR ALTER` statements, Snowflake CLI, and GitHub Actions. Designed automation to promote code from staging to production based on Git branch strategy.
+
+**What I Did:**
+- 🔄 Used `CREATE OR ALTER` for safe, repeatable deployment of Snowflake objects.
+- ⚙️ Created `main.yml` GitHub Actions workflow to automate deployment on PR merges.
+- 🔐 Used **GitHub Secrets** to securely store Snowflake credentials (`account`, `username`, `private key`, `role`, etc.).
+- 📦 Integrated Snowflake CLI for executing deployment commands programmatically.
+- 🌱 Followed a Git branching model to differentiate staging and production environments.
+
+> ✅ This setup supports **Declarative Change Management (DCM)** and aligns with modern CI/CD practices for secure, scalable Snowflake deployments.
+
+---
+
 ## Advanced Data Engineering with Snowflake
 
 #### How to use this repo throughout the course:

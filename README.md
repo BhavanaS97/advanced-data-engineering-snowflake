@@ -1,3 +1,9 @@
+## Maintainer
+
+- [BhavanaS](https://github.com/BhavanaS97)  
+- Email: samboju.bhavana19@gmail.com 
+- LinkedIn: [(https://www.linkedin.com/in/bhavana-s-3171151b6/)]
+
 ## 💼 Project: Declarative Change Management with Snowflake CLI & GitHub Actions
 
 **Description:**
